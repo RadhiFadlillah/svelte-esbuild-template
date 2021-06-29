@@ -4,8 +4,8 @@ This is a project template for [Svelte][svelte] apps, using [esbuild][esbuild] a
 [Typescript][ts] as its main language.
 
 I created this template because the official Svelte template uses Rollup as compiler, which unfortunately
-too slow for my taste. For example, Rollup takes around 500ms to build Svelte's hello world app in dev
-mode, and around 2s for production. In other hand, esbuild can compile it almost instantly.
+too slow for my taste. For example, [Rollup][rollup] takes around 500ms to build Svelte's hello world app
+in dev mode, and around 2s for production. In other hand, esbuild can compile it almost instantly.
 
 However, since esbuild is still in alpha (it still not reach v1), there are still some features that not
 available. For example, right now esbuild doesn't have official support for live reload. However it's not
@@ -44,3 +44,4 @@ npm run build
 [esbuild]: https://esbuild.github.io/
 [ts]: https://www.typescriptlang.org/
 [degit]: https://github.com/Rich-Harris/degit
+[rollup]: https://rollupjs.org/
